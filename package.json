@@ -1,0 +1,20 @@
+{
+  "name": "mcp-server-project",
+  "version": "1.0.0",
+  "description": "MCP Server Project for connecting to MySQL database and fetching table information.",
+  "main": "index.js",
+  "bin": {
+    "mcpserver": "./src/server.js"
+  },
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.18.2",
+    "mysql2": "^2.3.3"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
