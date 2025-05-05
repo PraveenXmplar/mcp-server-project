@@ -1,0 +1,12 @@
+{
+    "servers": {
+        "stdio-server": {
+            "type": "stdio",
+            "command": "java",
+            "args": [
+                "-jar",
+                "D:/Praveen/Backend/mcpserver/db-mcp-server/db-mcp-server/target/db-mcp-server-0.0.1-SNAPSHOT.jar"
+            ]
+        }
+    }
+}
